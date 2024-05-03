@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    max-width: 1440px;
+    max-height: 1622px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.catalog {
+    margin:171px 135px;
+}
+
+.catalog__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog__categories{
+    min-width: 310px;
+    max-height: 1244px;
+}
+
+/*catalog categories START*/
+
+.catalog__categories__menu{
+    background-color: #FBFBFB;
+    padding: 15px 0 303px
+}
+
+.catalog__categories h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 0 7px 18px;
+}
+
+.catalog__categories ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.catalog__categories a{
+    color: #3D3D3D;
+    font-size: 15px;
+}
+
+.catalog__categories a.active{
+    color: #46A358;
+    font-weight: bold;
+}
+
+/*catalog categories END*/
+
+/*catalog sale banner START*/
+
+.catalog__sale__image{
+    overflow: hidden;
+    min-width: 310px;
+}
+
+/*catalog sale banner END*/
+
+
+/*catalog products START*/
+
+.catalog__products__header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.catalog__products__header dl{
+    display: flex;
+    gap: 37px;
+}
+
+.catalog__products__header__selected{
+    color: #46A358;
+    font-weight: bold;
+}
+
+select {
+    border-width:0px;
+}
+
+.catalog__products{
+    margin-left: 50px;
+    max-width: 910px;
+}
+
+.catalog__product{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 777px;
+}
+
+/*catalog products END*/
+
+/*catalog pagination START*/
+
+.catalog__pagination{
+    margin-top: 90px;
+}
+
+.catalog__pagination dl{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+.catalog__pagination dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #3D3D3D;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.catalog__pagination a{
+    color: #3D3D3D;
+}
+
+.catalog__pagination__selected {
+    background-color: #46A358;
+    font-weight: bold;
+}
+
+.catalog__pagination__selected a{
+    color: white;
+}
+
+/*catalog pagination END*/
